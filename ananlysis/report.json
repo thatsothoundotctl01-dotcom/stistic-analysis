@@ -1,0 +1,37 @@
+{
+  "week_start": "2026-05-01",
+  "week_end": "2026-05-07",
+  "coverage": {
+    "uptime_percent": 45.43,
+    "gaps_over_5min": 1,
+    "total_hours": 76.33
+  },
+  "temperature_c": {
+    "median": 34.2,
+    "IQR": 2.1,
+    "Min": 24.3,
+    "Max": 36.0,
+    "Max_at": "2026-05-07T11:55:47.814323+07:00",
+    "threshold_c": 35.0,
+    "percent_time_above_threshold": 1.32
+  },
+  "humidity_percent": {
+    "Median": 64.6,
+    "IQR": 10.1
+  },
+  "actuators": {
+    "relay1_cooling_duty_cycle_percent": 9.0,
+    "relay3_spray_duty_cycle_percent": 0.14,
+    "pump_activations": 5,
+    "total_spray_minutes": 6.42,
+    "estimated_water_litres": 32.11,
+    "spray_event_duration_seconds": {
+      "Median": 72.3,
+      "IQR": 20.0
+    }
+  },
+  "warnings": [
+    "Logger uptime is low (45.4%). Statistics describe logged periods only.",
+    "Detected 1 data outage gaps longer than 5 minutes."
+  ]
+}
