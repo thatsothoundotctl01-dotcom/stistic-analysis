@@ -1,37 +1,32 @@
-# FarmOS Weekly Farm Report Generator
+# FarmOS Weekly Komport Farm
 
-Computes a weekly statistics report (environment, actuator behaviour, data health)
-from raw Automated Cooling and Spraying System logs for Kampot Farm.
+Generates a weekly statistics report (temperature, humidity, pump/spray activity)
+from the farm's sensor data CSV.
 
-## Requirements
+
+## Setup (Ubuntu)
+
+```bash
+sudo apt update
+sudo apt install python3 python3-pip python3-venv -y
+
 ```
-pip install -r requirements.txt
+
+## How to run
+
+```bash
+python3 init.py --file "Automated Cooling and Spraying Data.csv" --start 2026-05-11 --out report.json
 ```
-(pandas, numpy, matplotlib — see `requirements.txt`)
 
-## Reproduce every number in the report with one command
+This creates `week_report.json` with all the numbers.
+
+## Run tests
+
+```bash
+python3 init.py --test
 ```
-python init.py --file "Automated_Cooling_and_Spraying_Data.csv" --start 2026-05-11 --out week_report.json
-```
-This reads the raw CSV, computes the week starting `2026-05-11`, and writes
-`report.json` containing every metric quoted in the report.
 
-## Configuration
-`config` in `compute_weekly_report()` — do not hard-code these:
-| Key | Meaning | Default |
-|---|---|---|
-| `temp_threshold` | °C above which time is flagged "hot" | 35.0 |
-| `flow_rate_lpm` | pump flow rate, used to estimate litres sprayed | 5.0 |
-| `gap_threshold_sec` | gap length counted as a logger outage | 300.0 |
-
-## Output
-See `week_report_sample.json` for one full example output. Every metric
-carries the coverage (`uptime_percent`) it was computed from; `warnings`
-lists anything that limits how the numbers should be read (e.g. low uptime).
-
-## Known data issues in our window
-- (fill in once you've plotted your data — e.g. "3.5 hours missing on 2026-05-13")
-- (out-of-order timestamps? bursty intervals? state here what you found)
-# update 
-# update 
-#update repo 
+## Notes
+- Threshold, flow rate, and gap settings can be changed in the `config` dict inside `init.py`.
+- Sample output already in the repo: `all_weeks_report.json`.
+- When done working, exit the virtual environment with `deactivate`.
