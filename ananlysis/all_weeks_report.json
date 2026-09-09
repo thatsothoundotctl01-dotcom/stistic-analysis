@@ -1,0 +1,693 @@
+[
+  {
+    "week_start": "2026-05-04",
+    "week_end": "2026-05-10",
+    "coverage": {
+      "uptime_percent": 88.29,
+      "gaps_over_5min": 4,
+      "total_hours": 148.33
+    },
+    "temperature_c": {
+      "median": 34.2,
+      "IQR": 2.0,
+      "Min": 24.3,
+      "Max": 36.1,
+      "Max_at": "2026-05-10T12:47:57.251077+07:00",
+      "threshold_c": 35.0,
+      "percent_time_above_threshold": 27.98,
+      "longest_spell_above_threshold_minutes": 1170.9,
+      "outliers_count_iqr_fence": 367
+    },
+    "humidity_percent": {
+      "Median": 64.9,
+      "IQR": 7.98,
+      "outliers_count_iqr_fence": 290
+    },
+    "actuators": {
+      "relay1_cooling_duty_cycle_percent": 39.16,
+      "relay3_spray_duty_cycle_percent": 12.9,
+      "pump_activations": 14,
+      "total_spray_minutes": 1148.45,
+      "estimated_water_litres": 5742.23,
+      "spray_event_duration_seconds": {
+        "Median": 72.3,
+        "IQR": 21.6
+      }
+    },
+    "effectiveness_group_d": {
+      "median_temp_drop_c_10min_post_spray": 2.0,
+      "temp_drop_iqr": 0.25
+    },
+    "warnings": [
+      "Detected 4 data outage gaps longer than 5 minutes."
+    ]
+  },
+  {
+    "week_start": "2026-05-11",
+    "week_end": "2026-05-17",
+    "coverage": {
+      "uptime_percent": 87.07,
+      "gaps_over_5min": 5,
+      "total_hours": 146.28
+    },
+    "temperature_c": {
+      "median": 35.9,
+      "IQR": 1.3,
+      "Min": 29.9,
+      "Max": 38.3,
+      "Max_at": "2026-05-15T12:21:52.959417+07:00",
+      "threshold_c": 35.0,
+      "percent_time_above_threshold": 77.15,
+      "longest_spell_above_threshold_minutes": 2623.8,
+      "outliers_count_iqr_fence": 831
+    },
+    "humidity_percent": {
+      "Median": 60.3,
+      "IQR": 10.2,
+      "outliers_count_iqr_fence": 130
+    },
+    "actuators": {
+      "relay1_cooling_duty_cycle_percent": 98.61,
+      "relay3_spray_duty_cycle_percent": 70.23,
+      "pump_activations": 49,
+      "total_spray_minutes": 6164.09,
+      "estimated_water_litres": 30820.44,
+      "spray_event_duration_seconds": {
+        "Median": 70.1,
+        "IQR": 22.2
+      }
+    },
+    "effectiveness_group_d": {
+      "median_temp_drop_c_10min_post_spray": 1.8,
+      "temp_drop_iqr": 1.0
+    },
+    "warnings": [
+      "Detected 5 data outage gaps longer than 5 minutes."
+    ]
+  },
+  {
+    "week_start": "2026-05-18",
+    "week_end": "2026-05-24",
+    "coverage": {
+      "uptime_percent": 88.99,
+      "gaps_over_5min": 7,
+      "total_hours": 149.51
+    },
+    "temperature_c": {
+      "median": 36.1,
+      "IQR": 1.5,
+      "Min": 24.7,
+      "Max": 38.3,
+      "Max_at": "2026-05-24T13:49:09.763255+07:00",
+      "threshold_c": 35.0,
+      "percent_time_above_threshold": 33.26,
+      "longest_spell_above_threshold_minutes": 1389.1,
+      "outliers_count_iqr_fence": 1291
+    },
+    "humidity_percent": {
+      "Median": 62.8,
+      "IQR": 4.7,
+      "outliers_count_iqr_fence": 1288
+    },
+    "actuators": {
+      "relay1_cooling_duty_cycle_percent": 58.46,
+      "relay3_spray_duty_cycle_percent": 29.73,
+      "pump_activations": 20,
+      "total_spray_minutes": 2667.03,
+      "estimated_water_litres": 13335.16,
+      "spray_event_duration_seconds": {
+        "Median": 90.0,
+        "IQR": 959.6
+      }
+    },
+    "effectiveness_group_d": {
+      "median_temp_drop_c_10min_post_spray": 1.05,
+      "temp_drop_iqr": 1.85
+    },
+    "warnings": [
+      "Detected 7 data outage gaps longer than 5 minutes."
+    ]
+  },
+  {
+    "week_start": "2026-05-25",
+    "week_end": "2026-05-31",
+    "coverage": {
+      "uptime_percent": 31.9,
+      "gaps_over_5min": 2,
+      "total_hours": 53.6
+    },
+    "temperature_c": {
+      "median": 36.9,
+      "IQR": 1.1,
+      "Min": 33.7,
+      "Max": 40.2,
+      "Max_at": "2026-05-27T13:57:03.909495+07:00",
+      "threshold_c": 35.0,
+      "percent_time_above_threshold": 95.27,
+      "longest_spell_above_threshold_minutes": 1307.4,
+      "outliers_count_iqr_fence": 1787
+    },
+    "humidity_percent": {
+      "Median": 56.3,
+      "IQR": 4.3,
+      "outliers_count_iqr_fence": 508
+    },
+    "actuators": {
+      "relay1_cooling_duty_cycle_percent": 100.0,
+      "relay3_spray_duty_cycle_percent": 91.08,
+      "pump_activations": 10,
+      "total_spray_minutes": 2928.93,
+      "estimated_water_litres": 14644.64,
+      "spray_event_duration_seconds": {
+        "Median": 1528.1,
+        "IQR": 5521.6
+      }
+    },
+    "effectiveness_group_d": {
+      "median_temp_drop_c_10min_post_spray": 0.1,
+      "temp_drop_iqr": 0.1
+    },
+    "warnings": [
+      "Logger uptime is low (31.9%). Statistics describe logged periods only.",
+      "Detected 2 data outage gaps longer than 5 minutes."
+    ]
+  },
+  {
+    "week_start": "2026-06-15",
+    "week_end": "2026-06-21",
+    "coverage": {
+      "uptime_percent": 58.79,
+      "gaps_over_5min": 5,
+      "total_hours": 98.77
+    },
+    "temperature_c": {
+      "median": 36.3,
+      "IQR": 2.3,
+      "Min": 23.9,
+      "Max": 39.2,
+      "Max_at": "2026-06-20T15:00:39.453161+07:00",
+      "threshold_c": 35.0,
+      "percent_time_above_threshold": 8.9,
+      "longest_spell_above_threshold_minutes": 134.6,
+      "outliers_count_iqr_fence": 263
+    },
+    "humidity_percent": {
+      "Median": 59.0,
+      "IQR": 7.5,
+      "outliers_count_iqr_fence": 272
+    },
+    "actuators": {
+      "relay1_cooling_duty_cycle_percent": 62.24,
+      "relay3_spray_duty_cycle_percent": 1.77,
+      "pump_activations": 5,
+      "total_spray_minutes": 104.91,
+      "estimated_water_litres": 524.56,
+      "spray_event_duration_seconds": {
+        "Median": 220.3,
+        "IQR": 169.3
+      }
+    },
+    "effectiveness_group_d": {
+      "median_temp_drop_c_10min_post_spray": 0.8,
+      "temp_drop_iqr": 1.2
+    },
+    "warnings": [
+      "Logger uptime is low (58.8%). Statistics describe logged periods only.",
+      "Detected 5 data outage gaps longer than 5 minutes."
+    ]
+  },
+  {
+    "week_start": "2026-06-22",
+    "week_end": "2026-06-28",
+    "coverage": {
+      "uptime_percent": 90.18,
+      "gaps_over_5min": 6,
+      "total_hours": 151.5
+    },
+    "temperature_c": {
+      "median": 34.7,
+      "IQR": 3.0,
+      "Min": 25.7,
+      "Max": 44.0,
+      "Max_at": "2026-06-28T15:01:46.875534+07:00",
+      "threshold_c": 35.0,
+      "percent_time_above_threshold": 25.97,
+      "longest_spell_above_threshold_minutes": 991.1,
+      "outliers_count_iqr_fence": 209
+    },
+    "humidity_percent": {
+      "Median": 59.6,
+      "IQR": 10.03,
+      "outliers_count_iqr_fence": 165
+    },
+    "actuators": {
+      "relay1_cooling_duty_cycle_percent": 97.55,
+      "relay3_spray_duty_cycle_percent": 0.0,
+      "pump_activations": 0,
+      "total_spray_minutes": 0.0,
+      "estimated_water_litres": 0.0,
+      "spray_event_duration_seconds": {
+        "Median": 0.0,
+        "IQR": 0.0
+      }
+    },
+    "effectiveness_group_d": {
+      "median_temp_drop_c_10min_post_spray": 0.0,
+      "temp_drop_iqr": 0.0
+    },
+    "warnings": [
+      "Detected 6 data outage gaps longer than 5 minutes."
+    ]
+  },
+  {
+    "week_start": "2026-06-29",
+    "week_end": "2026-07-05",
+    "coverage": {
+      "uptime_percent": 90.17,
+      "gaps_over_5min": 7,
+      "total_hours": 151.49
+    },
+    "temperature_c": {
+      "median": 32.6,
+      "IQR": 5.1,
+      "Min": 24.1,
+      "Max": 39.9,
+      "Max_at": "2026-06-30T14:54:53.524691+07:00",
+      "threshold_c": 35.0,
+      "percent_time_above_threshold": 4.29,
+      "longest_spell_above_threshold_minutes": 160.7,
+      "outliers_count_iqr_fence": 0
+    },
+    "humidity_percent": {
+      "Median": 68.2,
+      "IQR": 23.0,
+      "outliers_count_iqr_fence": 0
+    },
+    "actuators": {
+      "relay1_cooling_duty_cycle_percent": 8.87,
+      "relay3_spray_duty_cycle_percent": 0.0,
+      "pump_activations": 0,
+      "total_spray_minutes": 0.0,
+      "estimated_water_litres": 0.0,
+      "spray_event_duration_seconds": {
+        "Median": 0.0,
+        "IQR": 0.0
+      }
+    },
+    "effectiveness_group_d": {
+      "median_temp_drop_c_10min_post_spray": 0.0,
+      "temp_drop_iqr": 0.0
+    },
+    "warnings": [
+      "Detected 7 data outage gaps longer than 5 minutes."
+    ]
+  },
+  {
+    "week_start": "2026-07-06",
+    "week_end": "2026-07-12",
+    "coverage": {
+      "uptime_percent": 90.18,
+      "gaps_over_5min": 9,
+      "total_hours": 151.5
+    },
+    "temperature_c": {
+      "median": 33.3,
+      "IQR": 3.6,
+      "Min": 23.3,
+      "Max": 38.8,
+      "Max_at": "2026-07-11T14:57:35.184423+07:00",
+      "threshold_c": 35.0,
+      "percent_time_above_threshold": 9.24,
+      "longest_spell_above_threshold_minutes": 166.2,
+      "outliers_count_iqr_fence": 450
+    },
+    "humidity_percent": {
+      "Median": 64.3,
+      "IQR": 11.9,
+      "outliers_count_iqr_fence": 484
+    },
+    "actuators": {
+      "relay1_cooling_duty_cycle_percent": 0.2,
+      "relay3_spray_duty_cycle_percent": 0.02,
+      "pump_activations": 1,
+      "total_spray_minutes": 1.39,
+      "estimated_water_litres": 6.96,
+      "spray_event_duration_seconds": {
+        "Median": 83.5,
+        "IQR": 0.0
+      }
+    },
+    "effectiveness_group_d": {
+      "median_temp_drop_c_10min_post_spray": 0.1,
+      "temp_drop_iqr": 0.0
+    },
+    "warnings": [
+      "Detected 9 data outage gaps longer than 5 minutes."
+    ]
+  },
+  {
+    "week_start": "2026-07-13",
+    "week_end": "2026-07-19",
+    "coverage": {
+      "uptime_percent": 90.17,
+      "gaps_over_5min": 6,
+      "total_hours": 151.49
+    },
+    "temperature_c": {
+      "median": 32.95,
+      "IQR": 5.5,
+      "Min": 22.8,
+      "Max": 36.1,
+      "Max_at": "2026-07-16T14:54:01.761820+07:00",
+      "threshold_c": 35.0,
+      "percent_time_above_threshold": 1.24,
+      "longest_spell_above_threshold_minutes": 13.0,
+      "outliers_count_iqr_fence": 0
+    },
+    "humidity_percent": {
+      "Median": 72.5,
+      "IQR": 20.08,
+      "outliers_count_iqr_fence": 0
+    },
+    "actuators": {
+      "relay1_cooling_duty_cycle_percent": 12.87,
+      "relay3_spray_duty_cycle_percent": 0.13,
+      "pump_activations": 9,
+      "total_spray_minutes": 11.76,
+      "estimated_water_litres": 58.79,
+      "spray_event_duration_seconds": {
+        "Median": 76.8,
+        "IQR": 7.8
+      }
+    },
+    "effectiveness_group_d": {
+      "median_temp_drop_c_10min_post_spray": 1.8,
+      "temp_drop_iqr": 0.9
+    },
+    "warnings": [
+      "Detected 6 data outage gaps longer than 5 minutes."
+    ]
+  },
+  {
+    "week_start": "2026-07-20",
+    "week_end": "2026-07-26",
+    "coverage": {
+      "uptime_percent": 90.17,
+      "gaps_over_5min": 6,
+      "total_hours": 151.49
+    },
+    "temperature_c": {
+      "median": 34.3,
+      "IQR": 2.8,
+      "Min": 23.9,
+      "Max": 36.1,
+      "Max_at": "2026-07-21T15:01:10.036577+07:00",
+      "threshold_c": 35.0,
+      "percent_time_above_threshold": 15.76,
+      "longest_spell_above_threshold_minutes": 990.6,
+      "outliers_count_iqr_fence": 407
+    },
+    "humidity_percent": {
+      "Median": 64.8,
+      "IQR": 8.6,
+      "outliers_count_iqr_fence": 397
+    },
+    "actuators": {
+      "relay1_cooling_duty_cycle_percent": 82.58,
+      "relay3_spray_duty_cycle_percent": 0.51,
+      "pump_activations": 39,
+      "total_spray_minutes": 46.24,
+      "estimated_water_litres": 231.18,
+      "spray_event_duration_seconds": {
+        "Median": 69.0,
+        "IQR": 16.3
+      }
+    },
+    "effectiveness_group_d": {
+      "median_temp_drop_c_10min_post_spray": 1.7,
+      "temp_drop_iqr": 0.65
+    },
+    "warnings": [
+      "Detected 6 data outage gaps longer than 5 minutes."
+    ]
+  },
+  {
+    "week_start": "2026-07-27",
+    "week_end": "2026-08-02",
+    "coverage": {
+      "uptime_percent": 90.17,
+      "gaps_over_5min": 7,
+      "total_hours": 151.49
+    },
+    "temperature_c": {
+      "median": 31.6,
+      "IQR": 3.4,
+      "Min": 23.9,
+      "Max": 35.4,
+      "Max_at": "2026-08-02T13:09:57.349228+07:00",
+      "threshold_c": 35.0,
+      "percent_time_above_threshold": 0.21,
+      "longest_spell_above_threshold_minutes": 6.0,
+      "outliers_count_iqr_fence": 53
+    },
+    "humidity_percent": {
+      "Median": 73.3,
+      "IQR": 8.9,
+      "outliers_count_iqr_fence": 518
+    },
+    "actuators": {
+      "relay1_cooling_duty_cycle_percent": 14.03,
+      "relay3_spray_duty_cycle_percent": 0.0,
+      "pump_activations": 0,
+      "total_spray_minutes": 0.0,
+      "estimated_water_litres": 0.0,
+      "spray_event_duration_seconds": {
+        "Median": 0.0,
+        "IQR": 0.0
+      }
+    },
+    "effectiveness_group_d": {
+      "median_temp_drop_c_10min_post_spray": 0.0,
+      "temp_drop_iqr": 0.0
+    },
+    "warnings": [
+      "Detected 7 data outage gaps longer than 5 minutes."
+    ]
+  },
+  {
+    "week_start": "2026-08-03",
+    "week_end": "2026-08-09",
+    "coverage": {
+      "uptime_percent": 90.18,
+      "gaps_over_5min": 6,
+      "total_hours": 151.5
+    },
+    "temperature_c": {
+      "median": 32.8,
+      "IQR": 2.3,
+      "Min": 25.2,
+      "Max": 35.9,
+      "Max_at": "2026-08-03T14:36:53.782258+07:00",
+      "threshold_c": 35.0,
+      "percent_time_above_threshold": 13.28,
+      "longest_spell_above_threshold_minutes": 1069.5,
+      "outliers_count_iqr_fence": 247
+    },
+    "humidity_percent": {
+      "Median": 71.2,
+      "IQR": 7.3,
+      "outliers_count_iqr_fence": 293
+    },
+    "actuators": {
+      "relay1_cooling_duty_cycle_percent": 80.54,
+      "relay3_spray_duty_cycle_percent": 11.79,
+      "pump_activations": 2,
+      "total_spray_minutes": 1071.42,
+      "estimated_water_litres": 5357.1,
+      "spray_event_duration_seconds": {
+        "Median": 79.0,
+        "IQR": 32065.3
+      }
+    },
+    "effectiveness_group_d": {
+      "median_temp_drop_c_10min_post_spray": 0.9,
+      "temp_drop_iqr": 0.8
+    },
+    "warnings": [
+      "Detected 6 data outage gaps longer than 5 minutes."
+    ]
+  },
+  {
+    "week_start": "2026-08-10",
+    "week_end": "2026-08-16",
+    "coverage": {
+      "uptime_percent": 90.17,
+      "gaps_over_5min": 6,
+      "total_hours": 151.48
+    },
+    "temperature_c": {
+      "median": 32.0,
+      "IQR": 3.1,
+      "Min": 25.6,
+      "Max": 35.9,
+      "Max_at": "2026-08-13T13:30:38.189284+07:00",
+      "threshold_c": 35.0,
+      "percent_time_above_threshold": 0.33,
+      "longest_spell_above_threshold_minutes": 11.5,
+      "outliers_count_iqr_fence": 94
+    },
+    "humidity_percent": {
+      "Median": 70.0,
+      "IQR": 12.3,
+      "outliers_count_iqr_fence": 340
+    },
+    "actuators": {
+      "relay1_cooling_duty_cycle_percent": 74.63,
+      "relay3_spray_duty_cycle_percent": 0.02,
+      "pump_activations": 1,
+      "total_spray_minutes": 1.56,
+      "estimated_water_litres": 7.79,
+      "spray_event_duration_seconds": {
+        "Median": 93.4,
+        "IQR": 0.0
+      }
+    },
+    "effectiveness_group_d": {
+      "median_temp_drop_c_10min_post_spray": 1.0,
+      "temp_drop_iqr": 0.0
+    },
+    "warnings": [
+      "Detected 6 data outage gaps longer than 5 minutes."
+    ]
+  },
+  {
+    "week_start": "2026-08-17",
+    "week_end": "2026-08-23",
+    "coverage": {
+      "uptime_percent": 90.17,
+      "gaps_over_5min": 6,
+      "total_hours": 151.49
+    },
+    "temperature_c": {
+      "median": 33.1,
+      "IQR": 3.1,
+      "Min": 23.6,
+      "Max": 36.9,
+      "Max_at": "2026-08-22T14:15:32.468223+07:00",
+      "threshold_c": 35.0,
+      "percent_time_above_threshold": 1.38,
+      "longest_spell_above_threshold_minutes": 40.0,
+      "outliers_count_iqr_fence": 180
+    },
+    "humidity_percent": {
+      "Median": 71.9,
+      "IQR": 11.12,
+      "outliers_count_iqr_fence": 140
+    },
+    "actuators": {
+      "relay1_cooling_duty_cycle_percent": 40.91,
+      "relay3_spray_duty_cycle_percent": 0.22,
+      "pump_activations": 2,
+      "total_spray_minutes": 19.72,
+      "estimated_water_litres": 98.59,
+      "spray_event_duration_seconds": {
+        "Median": 591.5,
+        "IQR": 442.4
+      }
+    },
+    "effectiveness_group_d": {
+      "median_temp_drop_c_10min_post_spray": 1.0,
+      "temp_drop_iqr": 0.9
+    },
+    "warnings": [
+      "Detected 6 data outage gaps longer than 5 minutes."
+    ]
+  },
+  {
+    "week_start": "2026-08-24",
+    "week_end": "2026-08-30",
+    "coverage": {
+      "uptime_percent": 90.17,
+      "gaps_over_5min": 6,
+      "total_hours": 151.49
+    },
+    "temperature_c": {
+      "median": 31.1,
+      "IQR": 2.3,
+      "Min": 25.2,
+      "Max": 35.4,
+      "Max_at": "2026-08-25T14:34:07.841790+07:00",
+      "threshold_c": 35.0,
+      "percent_time_above_threshold": 0.05,
+      "longest_spell_above_threshold_minutes": 4.5,
+      "outliers_count_iqr_fence": 102
+    },
+    "humidity_percent": {
+      "Median": 73.6,
+      "IQR": 10.8,
+      "outliers_count_iqr_fence": 26
+    },
+    "actuators": {
+      "relay1_cooling_duty_cycle_percent": 48.79,
+      "relay3_spray_duty_cycle_percent": 0.0,
+      "pump_activations": 0,
+      "total_spray_minutes": 0.0,
+      "estimated_water_litres": 0.0,
+      "spray_event_duration_seconds": {
+        "Median": 0.0,
+        "IQR": 0.0
+      }
+    },
+    "effectiveness_group_d": {
+      "median_temp_drop_c_10min_post_spray": 0.0,
+      "temp_drop_iqr": 0.0
+    },
+    "warnings": [
+      "Detected 6 data outage gaps longer than 5 minutes."
+    ]
+  },
+  {
+    "week_start": "2026-08-31",
+    "week_end": "2026-09-06",
+    "coverage": {
+      "uptime_percent": 45.9,
+      "gaps_over_5min": 3,
+      "total_hours": 77.11
+    },
+    "temperature_c": {
+      "median": 33.1,
+      "IQR": 1.9,
+      "Min": 25.9,
+      "Max": 36.8,
+      "Max_at": "2026-09-01T14:34:49.465741+07:00",
+      "threshold_c": 35.0,
+      "percent_time_above_threshold": 23.23,
+      "longest_spell_above_threshold_minutes": 990.9,
+      "outliers_count_iqr_fence": 55
+    },
+    "humidity_percent": {
+      "Median": 68.7,
+      "IQR": 9.08,
+      "outliers_count_iqr_fence": 42
+    },
+    "actuators": {
+      "relay1_cooling_duty_cycle_percent": 73.92,
+      "relay3_spray_duty_cycle_percent": 0.0,
+      "pump_activations": 0,
+      "total_spray_minutes": 0.0,
+      "estimated_water_litres": 0.0,
+      "spray_event_duration_seconds": {
+        "Median": 0.0,
+        "IQR": 0.0
+      }
+    },
+    "effectiveness_group_d": {
+      "median_temp_drop_c_10min_post_spray": 0.0,
+      "temp_drop_iqr": 0.0
+    },
+    "warnings": [
+      "Logger uptime is low (45.9%). Statistics describe logged periods only.",
+      "Detected 3 data outage gaps longer than 5 minutes."
+    ]
+  }
+]
