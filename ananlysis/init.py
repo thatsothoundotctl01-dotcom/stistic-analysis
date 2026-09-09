@@ -11,7 +11,6 @@ import argparse
 import json
 import sys
 import unittest
-import numpy as np
 import pandas as pd
 
 
@@ -141,7 +140,7 @@ def compute_weekly_report(df: pd.DataFrame, week_start: str, config: dict = None
         "week_end": (start_dt + pd.Timedelta(days=6)).strftime("%Y-%m-%d"),
         "coverage": {
             "uptime_percent": round(uptime_pct, 2),
-            "gaps_over_5min_note ": num_gaps, 
+            "gaps_over_5min": num_gaps,
             # 168h / week 
             "total_hours": round(total_logged_sec / 3600.0, 2)
         },
@@ -162,6 +161,7 @@ def compute_weekly_report(df: pd.DataFrame, week_start: str, config: dict = None
             "relay1_cooling_duty_cycle_percent": round(r1_duty_cycle, 2),
             "relay3_spray_duty_cycle_percent": round(r3_duty_cycle, 2),
             "pump_activations_total": activations,
+            "pump_activations": activations,
             "total_water_spray_minutes": round(r3_total_minutes, 2),
             "estimated_water_litres": round(estimated_water_litres, 2),
             "spray_event_duration_seconds": {
