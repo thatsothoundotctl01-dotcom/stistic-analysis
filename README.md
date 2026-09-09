@@ -33,3 +33,4 @@ lists anything that limits how the numbers should be read (e.g. low uptime).
 - (fill in once you've plotted your data — e.g. "3.5 hours missing on 2026-05-13")
 - (out-of-order timestamps? bursty intervals? state here what you found)
 # update 
+# update 
