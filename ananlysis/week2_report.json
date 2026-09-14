@@ -1,0 +1,87 @@
+{
+  "week_start": "2026-05-11",
+  "week_end": "2026-05-17",
+  "config": {
+    "temperature_threshold_c": 35.0,
+    "humidity_threshold_pct": 70.0,
+    "pump_flow_rate_l_per_min": 2.0,
+    "gap_threshold_s": 300,
+    "effectiveness_window_min": 10
+  },
+  "coverage": {
+    "uptime_percent": 17.27,
+    "gaps_over_5min": 6,
+    "total_gap_hours": 138.98,
+    "n_readings": 8435
+  },
+  "temperature_c": {
+    "median": 35.9,
+    "iqr": [
+      35.2,
+      36.5
+    ],
+    "min": 29.9,
+    "min_at": "2026-05-13T09:12:13.747292+07:00",
+    "max": 38.3,
+    "max_at": "2026-05-15T12:21:52.959417+07:00",
+    "percent_time_above_threshold": 41.72,
+    "threshold": 35.0,
+    "longest_spell_above_threshold": {
+      "hours": 1.26,
+      "start": "2026-05-15T11:08:51.510759+07:00",
+      "end": "2026-05-15T12:24:04.251768+07:00"
+    },
+    "skew": -1.366
+  },
+  "humidity_pct": {
+    "median": 60.3,
+    "iqr": [
+      56.5,
+      66.7
+    ],
+    "min": 50.6,
+    "min_at": "2026-05-15T12:17:32.476671+07:00",
+    "max": 96.6,
+    "max_at": "2026-05-11T08:39:38.834160+07:00",
+    "percent_time_above_threshold": 29.06,
+    "threshold": 70.0,
+    "longest_spell_above_threshold": {
+      "hours": 1.76,
+      "start": "2026-05-13T08:39:41.918988+07:00",
+      "end": "2026-05-13T10:24:30.251817+07:00"
+    },
+    "skew": 1.156
+  },
+  "relay1_cooling": {
+    "duty_cycle_percent": 92.99,
+    "on_minutes": 1619.2
+  },
+  "spray": {
+    "activations": 49,
+    "duty_cycle_percent": 6.86,
+    "total_minutes": 119.47,
+    "event_duration_seconds": {
+      "n": 49,
+      "median": 69.0,
+      "iqr": [
+        63.4,
+        75.8
+      ]
+    },
+    "rest_minutes_median": 9.9,
+    "estimated_litres": 238.9
+  },
+  "effectiveness": {
+    "n_events_analysed": 49,
+    "temp_drop_c_median": 1.8,
+    "temp_drop_c_iqr": [
+      1.2,
+      2.2
+    ],
+    "median_minutes_to_threshold": 1.0
+  },
+  "warnings": [
+    "Logger uptime 17.27%. Figures describe logged periods only.",
+    "583 sub-second reading interval(s) detected (burst/duplicate readings) \u2014 see data profile."
+  ]
+}
